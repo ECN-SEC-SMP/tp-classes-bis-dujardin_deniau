@@ -10,4 +10,5 @@ string Attaque:: getNomAttaque()const{
   if (type == 1)cout << "Pierre";
   else if (type == 2) cout << "feuille";
   else cout << "cisceau";
+  
   }
