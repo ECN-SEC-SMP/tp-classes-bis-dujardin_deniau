@@ -29,6 +29,7 @@ string Animal:: getNom(){
 Animal :: Animal (int maxX, int maxY){
     this -> x=0;
     this -> y=0;
+    vivant = true;
 }
 
 

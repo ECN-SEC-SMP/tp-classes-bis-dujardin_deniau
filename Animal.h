@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Attaque.h"
 
 using namespace std;
 
@@ -13,7 +14,7 @@ class Animal {
   int x; //abscisse de l'animal
   int y; //ordonnée de l'animal
   bool vivant;
-  //Attaque typeAttaque;
+  Attaque typeAttaque;
 
   public :
   //accesseur
@@ -25,7 +26,7 @@ class Animal {
 
   //mutateur
   void setVivant(bool vivant);
-  virtual void setAttaque() = 0;
+  virtual void setAttaque() ;
 
   //constructeur
   Animal(int maxX, int maxY);
@@ -35,7 +36,7 @@ class Animal {
   ~Animal();
 
   //méthodes
-  virtual void deplace(int maxX, int maxY) = 0;
+  virtual void deplace(int maxX, int maxY) ;
   bool attaque(Animal &a);
   
 

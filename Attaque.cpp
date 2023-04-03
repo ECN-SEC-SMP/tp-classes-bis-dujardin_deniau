@@ -12,3 +12,12 @@ string Attaque:: getNomAttaque()const{
   else cout << "cisceau";
   
   }
+Attaque :: Attaque () {
+  srand( time( NULL ) );
+      int type = 0;
+      type  = rand() % 3;
+}
+
+Attaque :: Attaque (int b) {
+  if (b <= 2 && b>= 0) type = b; 
+}

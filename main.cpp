@@ -1,8 +1,20 @@
 #include <iostream>
-#include <cstdlib.h>
+#include <stdlib.h>
+#include "Lion.h"
 
 int main() {
-      std::cout << "Hello World!\n";
-      int n = rand() % 10;
-      printf("%d\n", n);
+
+  Animal a(10,10);
+  a.getX();
+  int b =a.getX();
+  cout << b << endl; 
+  a.getY(); 
+  Animal x(10,10,5,5); 
+  x.getX();
+  x.getY();
+  a.getVivant(); 
+  a.setVivant(false);
+  a.getVivant(); 
+  
+        
 }

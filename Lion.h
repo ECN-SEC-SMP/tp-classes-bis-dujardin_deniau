@@ -1,4 +1,4 @@
-/*#ifndef Lion_h
+#ifndef Lion_h
 #define Lion_h
 
 #include "Animal.h"
@@ -15,4 +15,4 @@ class Lion : public Animal{
 
 };
 
-#endif /* Lion_h */*/
+#endif /* Lion_h */
