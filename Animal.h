@@ -22,7 +22,8 @@ class Animal {
   int getX()const;
   int getY()const;
   bool getVivant()const;
-  //Attaque getAttaque();
+  Attaque getAttaque()const;
+  virtual char getCaractere()=0;
 
   //mutateur
   void setVivant(bool vivant);
@@ -33,11 +34,12 @@ class Animal {
   Animal(int maxX, int maxY, int a, int b);
 
   //destructeur
-  ~Animal();
+  virtual ~Animal();
 
   //méthodes
   virtual void deplace(int maxX, int maxY) ;
   bool attaque(Animal &a);
+
   
 
 };

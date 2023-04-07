@@ -19,6 +19,8 @@ class Lion : public Animal{
   // virtual ~Animal();
   ~Lion(); 
 
+  char getCaractere();
+
 };
 
 #endif /* Lion_h */

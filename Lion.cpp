@@ -3,10 +3,19 @@
 
   //mutateurs
 void Lion :: setAttaque()
-{
-  Attaque();
+{  
+  for(int i = 0;i < 1000000;i++)
+  srand( time( NULL ) );
+  int t;
+  t  = (rand() % 2)+1;
+  typeAttaque = Attaque(t);
+  
 }
 
+char Lion::getCaractere()
+{
+  return 'L';
+}
   //méthodes
 void Lion :: deplace(int maxX, int maxY)
 {
@@ -26,6 +35,14 @@ void Lion :: deplace(int maxX, int maxY)
   if(y >= maxY)
   {
     y = y - maxY;
+  }
+  if(x < 0)
+  {
+    x = maxX+x;
+  }
+  if(y < 0)
+  {
+    y = maxY + y;
   }
 }
 

@@ -1,15 +1,17 @@
 #include <iostream>
+#include "stdlib.h"
 using namespace std;
 
 #include "Animal.h"
+#include "Attaque.h"
 
 int Animal:: getX()const{
-  cout << "x =" << x << endl;
+  //cout << "x =" << x << endl;
   return x;
 }
 
 int Animal:: getY()const{
-  cout << "y =" << y << endl;
+  //cout << "y =" << y << endl;
   return y;
 }
 
@@ -25,18 +27,24 @@ string Animal:: getNom(){
     return vivant;
   }
 
+Attaque Animal::getAttaque()const
+{  
+    return typeAttaque;
+}
+
 Animal :: Animal (int maxX, int maxY){
-    this -> x=0;
-    this -> y=0;
+    this -> x=rand() % 11;;
+    this -> y=rand() % 11;;
+    vivant = true;
 }
 
 
 Animal:: Animal (int maxX, int maxY, int a, int b) {
-    if (a<= maxX/2 && b<=maxY/2){
+    //if (a<= maxX/2 && b<=maxY/2){
       this -> x = a;
       this -> y = b; 
-    }
-    else cout << "mauvaises valeurs";
+    //}
+    //else cout << "mauvaises valeurs";
   }
 
 Animal :: ~Animal(){
@@ -48,6 +56,8 @@ void Animal:: setVivant(bool vivant){
 }
 
 void Animal:: setAttaque() {
+
+
   
 }
 

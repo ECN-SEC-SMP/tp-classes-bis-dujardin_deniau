@@ -1,0 +1,94 @@
+{
+  "files": {
+    "Animal.cpp": [
+      {
+        "id": "fc0e2614-6825-4979-be0c-f817aed6aea4",
+        "line": 42,
+        "version": 659,
+        "index": 667
+      },
+      {
+        "id": "0537d542-7d0d-41b7-bf20-d23d83fb5d1f",
+        "line": 43,
+        "version": 659,
+        "index": 720
+      },
+      {
+        "id": "6f2bdebe-e320-4d1d-ab6e-345737cd6c6a",
+        "line": 44,
+        "version": 659,
+        "index": 756
+      },
+      {
+        "id": "4a0079de-abe2-41c1-9a55-5fc06eab41f4",
+        "line": 45,
+        "version": 659,
+        "index": 777
+      }
+    ],
+    "Attaque.cpp": [
+      {
+        "id": "e4fa042a-e0c5-4c90-9cee-f9517b5a3d46",
+        "line": 25,
+        "version": 622,
+        "index": 338
+      },
+      {
+        "id": "831b4fd9-091f-4492-bcaa-b56544e351c8",
+        "line": 26,
+        "version": 622,
+        "index": 362
+      },
+      {
+        "id": "7e65e7a1-bd49-4e1b-8215-db4c0ced21fb",
+        "line": 27,
+        "version": 622,
+        "index": 374
+      },
+      {
+        "id": "62433964-5b24-43e1-9d60-c1004d795762",
+        "line": 28,
+        "version": 622,
+        "index": 399
+      },
+      {
+        "id": "42e40ac7-3857-4bf3-b10c-6da4865e5a30",
+        "line": 29,
+        "version": 622,
+        "index": 421
+      },
+      {
+        "id": "ee15b240-f8a9-478d-b068-5f81861b84eb",
+        "line": 30,
+        "version": 622,
+        "index": 459
+      }
+    ],
+    "Lion.cpp": [
+      {
+        "id": "c6e90565-3186-40a0-bf6c-5cc0c91ea392",
+        "line": 45,
+        "version": 547,
+        "index": 508
+      },
+      {
+        "id": "25ddf976-b428-4751-947e-62e7a91a4940",
+        "line": 46,
+        "version": 547,
+        "index": 567
+      },
+      {
+        "id": "fcf45f86-6e44-480e-95ef-d9e03acbf987",
+        "line": 49,
+        "version": 547,
+        "index": 575
+      },
+      {
+        "id": "e00697e5-8cd1-4222-a0b0-d261b45276b2",
+        "line": 50,
+        "version": 547,
+        "index": 654
+      }
+    ]
+  }
+}
